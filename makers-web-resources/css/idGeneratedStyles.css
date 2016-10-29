@@ -56,8 +56,7 @@ span.Title-Desc {
 	font-weight:normal;
 }
 p.ParaOverride-1 {
-	text-align:justify;
-	text-align-last:justify;
+	text-align:left;
 }
 p.ParaOverride-2 {
 	-epub-hyphens:none;
