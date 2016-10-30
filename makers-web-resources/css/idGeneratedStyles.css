@@ -1,7 +1,7 @@
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
 	margin:1;
-	padding:10;
-	border-width:30;
+	padding:3px;
+	border-width:1;
 }
 body {
 	-epub-hyphens:auto;
@@ -15,8 +15,8 @@ p.Basic-Paragraph {
 	font-weight:normal;
 	line-height:1.6;
 	margin-bottom:0;
-	margin-left:0;
-	margin-right:0;
+	margin-left:6;
+	margin-right:6;
 	margin-top:0;
 	orphans:1;
 	page-break-after:auto;
@@ -26,6 +26,7 @@ p.Basic-Paragraph {
 	text-indent:0;
 	text-transform:none;
 	widows:1;
+	padding:3px;
 }
 span.Contents {
 	color:#3dc7f4;
@@ -33,6 +34,7 @@ span.Contents {
 	font-size:16px;
 	font-style:normal;
 	font-weight:bold;
+	padding:1;
 }
 span.Hyperlink {
 	color:#4f5cd6;
@@ -229,6 +231,13 @@ div._idGenObjectStyleOverride-2 {
 	margin:auto;
 	max-width:700px;
 }
-div._idGenObjectLayout-1 {
+div._idG
+div._idGenObjectStyleOverride-2 {
+	
+	border:10px solid #FFFFFF;
+	margin:auto;
+	width:90%;
+	}
+}enObjectLayout-1 {
 	text-align:center;
 }
