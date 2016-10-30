@@ -1,5 +1,5 @@
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
-	margin:14;
+	margin:0;
 	padding:0;
 	border-width:0;
 }
@@ -26,6 +26,17 @@ p.Basic-Paragraph {
 	text-indent:0;
 	text-transform:none;
 	widows:1;
+}
+span.Contents {
+	color:#3dc7f4;
+	font-family: "jaf-facitweb",sans-serif;
+	font-size:42px;
+	font-style:normal;
+	font-weight:bold;
+}
+span.Hyperlink {
+	color:#4f5cd6;
+	text-decoration:underline;
 }
 span.Piece-Subtitle {
 	color:#3dc7f4;
@@ -56,7 +67,8 @@ span.Title-Desc {
 	font-weight:normal;
 }
 p.ParaOverride-1 {
-	text-align:left;
+	text-align:justify;
+	text-align-last:justify;
 }
 p.ParaOverride-2 {
 	-epub-hyphens:none;
@@ -78,110 +90,48 @@ span.CharOverride-2 {
 	font-weight:bold;
 }
 span.CharOverride-3 {
-	color:#3dc7f4;
-	font-family: "jaf-facitweb",sans-serif;
-	font-size:42px;
-	font-style:normal;
-	font-weight:bold;
-}
-span.CharOverride-4 {
-	color:#3dc7f4;
-	font-family: "jaf-facitweb",sans-serif;
-	font-size:42px;
-	font-style:normal;
-	font-weight:bold;
-	text-decoration:underline;
-}
-span.CharOverride-5 {
-	color:#3dc7f4;
-	font-family: "jaf-facitweb",sans-serif;
-	font-size:36px;
-	font-style:normal;
-	font-weight:normal;
-}
-span.CharOverride-6 {
-	color:#3dc7f4;
 	font-family: "jaf-facitweb",sans-serif;
 	font-size:48px;
+	font-style:italic;
+	font-weight:normal;
+}
+span.CharOverride-4 {
+	font-style:normal;
+	font-weight:bold;
+}
+span.CharOverride-5 {
+	color:#f4773d;
+	font-style:italic;
+	font-weight:bold;
+}
+span.CharOverride-6 {
+	color:#f4d23d;
 	font-style:normal;
 	font-weight:bold;
 }
 span.CharOverride-7 {
-	font-family: "jaf-facitweb",sans-serif;
-	font-size:42px;
+	color:#3dc7f4;
 	font-style:normal;
 	font-weight:bold;
 }
 span.CharOverride-8 {
-	color:#3dc7f4;
-	font-family: "jaf-facitweb",sans-serif;
-	font-size:38px;
-	font-style:italic;
+	color:#f4773d;
+	font-style:normal;
 	font-weight:bold;
 }
 span.CharOverride-9 {
-	font-family: "jaf-facitweb",sans-serif;
-	font-size:42px;
-	font-style:normal;
-	font-weight:normal;
-}
-span.CharOverride-10 {
-	font-family: "jaf-facitweb",sans-serif;
-	font-size:34px;
-	font-style:normal;
-	font-weight:normal;
-}
-span.CharOverride-11 {
-	font-style:normal;
-	font-weight:bold;
-}
-span.CharOverride-12 {
-	color:#f4773d;
-	font-family: "jaf-facitweb",sans-serif;
-	font-size:38px;
-	font-style:italic;
-	font-weight:bold;
-}
-span.CharOverride-13 {
-	color:#f4d23d;
-	font-family: "jaf-facitweb",sans-serif;
-	font-size:42px;
-	font-style:normal;
-	font-weight:bold;
-}
-span.CharOverride-14 {
-	color:#3dc7f4;
-	font-family: "jaf-facitweb",sans-serif;
-	font-style:normal;
-	font-weight:bold;
-}
-span.CharOverride-15 {
-	color:#f4773d;
-	font-family: "jaf-facitweb",sans-serif;
-	font-size:42px;
-	font-style:normal;
-	font-weight:bold;
-}
-span.CharOverride-16 {
-	color:#ae3df4;
-	font-family: "jaf-facitweb",sans-serif;
-	font-size:42px;
-	font-style:normal;
-	font-weight:bold;
-}
-span.CharOverride-17 {
 	font-family: "jaf-facitweb",sans-serif;
 	font-size:40px;
 	font-style:normal;
 	font-weight:bold;
 }
-span.CharOverride-18 {
+span.CharOverride-10 {
 	font-family: "jaf-facitweb",sans-serif;
 	font-size:36px;
 	font-style:normal;
 	font-weight:bold;
 }
-span.CharOverride-19 {
+span.CharOverride-11 {
 	font-family: "jaf-facitweb",sans-serif;
 	font-size:36px;
 	font-style:normal;
@@ -192,80 +142,69 @@ span.CharOverride-19 {
 	width:100.00%;
 }
 #_idContainer002 {
-	background-image:url(../image/2.png);
-	background-repeat:no-repeat;
-	background-size:contain;
 	display:inline-block;
-	padding:56.14% 0% 0% 0%;
+	padding:56.25% 0% 0% 0%;
 	position:relative;
 	text-align:left;
-	width:72.25%;
+	width:72.40%;
 }
 #_idContainer004 {
-	background-image:url(../image/2.png);
-	background-repeat:no-repeat;
-	background-size:contain;
 	display:inline-block;
-	padding:56.14% 0% 0% 0%;
+	padding:56.25% 0% 0% 0%;
 	position:relative;
 	text-align:left;
 	width:100%;
 }
 #_idContainer008 {
-	background-image:url(../image/6.png);
-	background-repeat:no-repeat;
-	background-size:contain;
 	display:inline-block;
-	padding:56.14% 0% 0% 0%;
+	padding:56.25% 0% 0% 0%;
 	position:relative;
 	text-align:left;
 	width:100%;
 }
 #_idContainer011 {
-	background-image:url(../image/6.png);
-	background-repeat:no-repeat;
-	background-size:contain;
 	display:inline-block;
-	padding:56.14% 0% 0% 0%;
+	padding:56.25% 0% 0% 0%;
 	position:relative;
 	text-align:left;
-	width:83.50%;
+	width:83.5%;
 }
 img._idGenObjectAttribute-1 {
-	width:74.77%;
+	width:74.91%;
 }
 object._idGenObjectAttribute-2 {
 	height:100.00%;
 	width:100.00%;
 }
-div._idGenObjectAttribute-3 {
+
+img._idGenObjectAttribute-3 {
+	width:100.00%;
+}
+img._idGenObjectAttribute-4 {
+	width:39.75%;
+}
+img._idGenObjectAttribute-5 {
+	width:86.56%;
+}
+img._idGenObjectAttribute-6 {
+	width:81.44%;
+}
+img._idGenObjectAttribute-7 {
+	width:45.96%;
+}
+img._idGenObjectAttribute-8 {
+	width:79.85%;
+}
+img._idGenObjectAttribute-9 {
+	width:58.47%;
+}
+div._idGenObjectAttribute-10 {
 	height:100.00%;
 	left:0%;
 	overflow:hidden;
 	position:absolute;
 	top:0%;
 	width:100.00%;
-}
-img._idGenObjectAttribute-4 {
-	width:99.81%;
-}
-img._idGenObjectAttribute-5 {
-	width:39.68%;
-}
-img._idGenObjectAttribute-6 {
-	width:86.39%;
-}
-img._idGenObjectAttribute-7 {
-	width:81.28%;
-}
-img._idGenObjectAttribute-8 {
-	width:45.87%;
-}
-img._idGenObjectAttribute-9 {
-	width:79.69%;
-}
-img._idGenObjectAttribute-10 {
-	width:58.35%;
 }
 div._idGenObjectStyleOverride-1 {
 	background-color:#3dc7f4;
