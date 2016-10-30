@@ -13,7 +13,7 @@ p.Basic-Paragraph {
 	font-style:normal;
 	font-variant:normal;
 	font-weight:normal;
-	line-height:1.2;
+	line-height:1.6;
 	margin-bottom:0;
 	margin-left:0;
 	margin-right:0;
@@ -30,7 +30,7 @@ p.Basic-Paragraph {
 span.Contents {
 	color:#3dc7f4;
 	font-family: "jaf-facitweb",sans-serif;
-	font-size:42px;
+	font-size:16px;
 	font-style:normal;
 	font-weight:bold;
 }
@@ -41,28 +41,28 @@ span.Hyperlink {
 span.Piece-Subtitle {
 	color:#3dc7f4;
 	font-family: "jaf-facitweb",sans-serif;
-	font-size:38px;
+	font-size:16px;
 	font-style:italic;
 	font-weight:bold;
 }
 span.Piece-Title {
 	color:#3dc7f4;
 	font-family: "jaf-facitweb",sans-serif;
-	font-size:42px;
+	font-size:17px;
 	font-style:normal;
 	font-weight:bold;
 	text-decoration:underline;
 }
 span.Text {
 	font-family: "jaf-facitweb",sans-serif;
-	font-size:34px;
+	font-size:14px;
 	font-style:normal;
 	font-weight:normal;
 }
 span.Title-Desc {
 	color:#3dc7f4;
 	font-family: "jaf-facitweb",sans-serif;
-	font-size:36px;
+	font-size:15px;
 	font-style:normal;
 	font-weight:normal;
 }
@@ -89,19 +89,19 @@ p.ParaOverride-6 {
 }
 span.CharOverride-1 {
 	font-family: "jaf-facitweb",sans-serif;
-	font-size:96px;
+	font-size:36px;
 	font-style:normal;
 	font-weight:bold;
 }
 span.CharOverride-2 {
 	font-family: "jaf-facitweb",sans-serif;
-	font-size:57px;
+	font-size:22px;
 	font-style:normal;
 	font-weight:bold;
 }
 span.CharOverride-3 {
 	font-family: "jaf-facitweb",sans-serif;
-	font-size:48px;
+	font-size:16px;
 	font-style:italic;
 	font-weight:normal;
 }
@@ -131,19 +131,19 @@ span.CharOverride-8 {
 }
 span.CharOverride-9 {
 	font-family: "jaf-facitweb",sans-serif;
-	font-size:40px;
+	font-size:14px;
 	font-style:normal;
 	font-weight:bold;
 }
 span.CharOverride-10 {
 	font-family: "jaf-facitweb",sans-serif;
-	font-size:36px;
+	font-size:14px;
 	font-style:normal;
 	font-weight:bold;
 }
 span.CharOverride-11 {
 	font-family: "jaf-facitweb",sans-serif;
-	font-size:36px;
+	font-size:14px;
 	font-style:normal;
 	font-weight:normal;
 }
@@ -218,10 +218,16 @@ div._idGenObjectAttribute-10 {
 }
 div._idGenObjectStyleOverride-1 {
 	background-color:#3dc7f4;
-	border-width:0px;
+	border:6px solid #3dc7f4;
+	margin:auto;
+	max-width:700px;
+
 }
 div._idGenObjectStyleOverride-2 {
-	border-width:0px;
+	
+	border:6px solid #3dc7f4;
+	margin:auto;
+	max-width:700px;
 }
 div._idGenObjectLayout-1 {
 	text-align:center;
