@@ -1,7 +1,7 @@
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
-	margin:0;
-	padding:0;
-	border-width:0;
+	margin:1;
+	padding:10;
+	border-width:30;
 }
 body {
 	-epub-hyphens:auto;
@@ -76,6 +76,16 @@ p.ParaOverride-2 {
 p.ParaOverride-3 {
 	-epub-hyphens:none;
 	text-align:center;
+}
+p.ParaOverride-5 {
+	line-height:0.0;
+	
+}
+p.ParaOverride-6 {
+	line-height:0.0;
+	-epub-hyphens:none;
+	text-align:right;
+	
 }
 span.CharOverride-1 {
 	font-family: "jaf-facitweb",sans-serif;
