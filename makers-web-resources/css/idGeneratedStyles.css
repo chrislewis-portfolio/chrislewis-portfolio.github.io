@@ -31,14 +31,13 @@ p.Basic-Paragraph {
 span.Contents {
 	color:#3dc7f4;
 	font-family: "jaf-facitweb",sans-serif;
-	font-size:16px;
+	font-size:18px;
 	font-style:normal;
 	font-weight:bold;
 	padding:1;
 }
 span.Hyperlink {
 	color:#4f5cd6;
-	text-decoration:underline;
 }
 span.Piece-Subtitle {
 	color:#3dc7f4;
@@ -148,6 +147,13 @@ span.CharOverride-11 {
 	font-size:14px;
 	font-style:normal;
 	font-weight:normal;
+}
+span.CharOverride-12 {
+	font-family: "malaga-narrow",sans-serif;
+	font-size:28px;
+	font-style:normal;
+	font-weight:700;
+	color:#3dc7f4;
 }
 #_idVideo000, #_idVideo001, #_idVideo002, #_idVideo003 {
 	height:100.00%;
